@@ -272,8 +272,10 @@ midi_mapping = {
 	"play_prev_clip": Note(41),
 	"play_next_available_clip": Note(44),
 	"play_prev_available_clip": Note(42),
-	"stop_all_clips": Note(49),
-	"stop_selected_track": Note(48),
+	# NOTE: was Note(48)
+	# "stop_selected_track": Note(87),
+	# NOTE: Changed this to ctrl + t - was Note(49)
+	"stop_all_clips": Note(87),
 
 	"select_playing_clip": Note(50), # highlights clipslot with currently playing clip
 	"toggle_auto_select_playing_clip": Note(51),
@@ -295,10 +297,12 @@ midi_mapping = {
 	# global controls
 	"tempo": (CC(86), CC(20, ABSOLUTE)),
 	"tap_tempo": Note(86), # attention: Live 8 only!
-	"tempo_increase": Note(87),
-	"tempo_decrease": Note(88),
+	# NOTE: commenting this out to use ctrl + t (Note(87)) to stop all tracks
+	# "tempo_increase": Note(87),
+	# "tempo_decrease": Note(88),
 
-	"play_stop": Note(20),
+	# NOTE: Commented out for use elsewhere.
+	# "play_stop": Note(20),
 	"play_pause": Note(21),
 	"play_selection": Note(24),
 	"stop_playing": Note(27),
@@ -328,8 +332,6 @@ midi_mapping = {
 	"record": Note(19),
 	"punch_in": Note(16),
 	"punch_out": Note(17),
-
-
 
 	# quantization control
 

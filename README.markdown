@@ -1,7 +1,14 @@
+# Personal Changes/Updates/Current State
+
+- arm track - ⌃a
+- back to arrangement - ⌃v
+- mute track - ⌃m
+- stop all clips in session - ⌃t
+
 Selected Track Control for Ableton Live
 =======================================
 
-Current version is 1.2.9 – released May 15, 2013.  
+Current version is 1.2.9 – released May 15, 2013.
 Compatible with Live 7,8 and 9
 
 
@@ -60,7 +67,7 @@ Either download the zip from [http://stc.wiffbi.com/](http://stc.wiffbi.com/) an
 4.	Enable **Selected Track Control** as a Control Surface in Live
 
 	In Live’s Preferences go to the *MIDI Sync* tab and select *Selected Track Control* in the dropdown list of available Control Surfaces. As MIDI Input select your controller’s MIDI-port. A MIDI Output is not needed.
-	
+
 
 
 
@@ -91,13 +98,13 @@ Added compatibility for Live 9
 
 ### Version 1.2.8 (released Sept 26, 2012) ###
 
-Added dedicated tart, stop and continue-playing commands - this is useful for e.g. hitting stop 3 times in row for MIDI panic functionality  
+Added dedicated tart, stop and continue-playing commands - this is useful for e.g. hitting stop 3 times in row for MIDI panic functionality
 Fixed scrub/rewind bug
 
 
 ### Version 1.2.7 (released Mar 14, 2012) ###
 
-Added select scene/track by number directly by MIDI value  
+Added select scene/track by number directly by MIDI value
 Added toggle selected clipslot play/stop
 
 
@@ -140,7 +147,7 @@ Added Device selection and control
 
 ### Version 1.1.8 (released Jun 22, 2011)
 
-Auto-arm track on selection now works when using the mouse! 
+Auto-arm track on selection now works when using the mouse!
 Added _scrubbing_ in Arrangement-View as well as _select playing clip-slot_ in Session-View.
 
 
