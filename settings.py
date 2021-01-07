@@ -315,7 +315,7 @@ midi_mapping = {
 
 
 	# NOTE: commented this out, because I think it breaks it
-	# "loop": Note(18),
+	"loop": Note(18),
 	"loop_move": CC(87),
 	"loop_lb_move": CC(88),
 	"loop_rb_move": CC(89),

@@ -26,7 +26,7 @@ class GlobalControl(Control):
 			("punch_out", self.toggle_punchout),
 
 			("metronome", self.toggle_metronome),
-			# ("loop", self.toggle_loop),
+			("loop", self.toggle_loop),
 
 
 			("loop_move", self.move_loop_by),
