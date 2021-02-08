@@ -273,9 +273,9 @@ midi_mapping = {
 	"play_next_available_clip": Note(44),
 	"play_prev_available_clip": Note(42),
 	# NOTE: was Note(48)
-	# "stop_selected_track": Note(87),
+	"stop_selected_track": Note(87),
 	# NOTE: Changed this to ctrl + t - was Note(49)
-	"stop_all_clips": Note(87),
+	# "stop_all_clips": Note(87),
 
 	"select_playing_clip": Note(50), # highlights clipslot with currently playing clip
 	"toggle_auto_select_playing_clip": Note(51),
